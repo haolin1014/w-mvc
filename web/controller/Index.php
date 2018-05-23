@@ -2,11 +2,7 @@
 namespace web\controller;
 use core\View;
 use Gregwar\Captcha\CaptchaBuilder;
-class Index{
-	protected $view;
-	public function __construct(){
-		$this->view = new View();
-	}
+class Index extends Base{
 	public function index(){
 		echo 'this is index';
 	}
