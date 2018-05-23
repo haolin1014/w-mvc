@@ -8,7 +8,7 @@ class Index{
 		$this->view = new View();
 	}
 	public function index(){
-		echo 'this is index index';
+		echo 'this is index';
 	}
 	public function show(){
 		$this->view->make('index')->with('name','wanghaolin');
