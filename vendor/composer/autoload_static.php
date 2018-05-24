@@ -7,6 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInitec2e640daeb1d529505f3f5ad63f7a11
 {
     public static $files = array (
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '4211bb913a4c0b6d90252cb9d2fb9e2b' => __DIR__ . '/../..' . '/core/functions.php',
     );
 
@@ -19,9 +22,21 @@ class ComposerStaticInitec2e640daeb1d529505f3f5ad63f7a11
         array (
             'core\\' => 5,
         ),
+        'S' => 
+        array (
+            'Symfony\\Component\\Finder\\' => 25,
+        ),
+        'P' => 
+        array (
+            'Psr\\Http\\Message\\' => 17,
+            'Predis\\' => 7,
+        ),
         'G' => 
         array (
-            'Gregwar\\Captcha\\' => 16,
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
+            'Gregwar\\' => 8,
         ),
     );
 
@@ -34,9 +49,33 @@ class ComposerStaticInitec2e640daeb1d529505f3f5ad63f7a11
         array (
             0 => __DIR__ . '/../..' . '/core',
         ),
-        'Gregwar\\Captcha\\' => 
+        'Symfony\\Component\\Finder\\' => 
         array (
-            0 => __DIR__ . '/..' . '/gregwar/captcha',
+            0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Predis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/predis/predis/src',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Gregwar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar',
         ),
     );
 
